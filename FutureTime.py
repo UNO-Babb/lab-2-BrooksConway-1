@@ -27,9 +27,10 @@ def main():
   futuremin = futuremin % 60
   print(futuremin)
   #Calculate the time after the user-supplied time has passed.
+  
   #Do not use any if statements in calculating the time.
   #Output the future time in standard format "HH:MM"
-print(realhour, ":", futuremin)
+  print(realhour, ":", futuremin)
 
 if __name__ == '__main__':
   main()
